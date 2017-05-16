@@ -4,5 +4,13 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyAnggaY92-0My34p6VQIYhUFw-GjH1ykL4',
+    authDomain: 'vergel-manager.firebaseapp.com',
+    databaseURL: 'https://vergel-manager.firebaseio.com',
+    projectId: 'vergel-manager',
+    storageBucket: 'vergel-manager.appspot.com',
+    messagingSenderId: '730991069012'
+  }
 };
